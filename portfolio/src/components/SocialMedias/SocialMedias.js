@@ -6,6 +6,7 @@ const SocialWrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-family: 'Roboto', sans-serif;
 
   @media screen and (max-device-width: 1200px){
     /* background-color: red; */
