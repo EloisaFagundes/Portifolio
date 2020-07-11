@@ -2,29 +2,31 @@ import React from "react";
 import styled from "styled-components";
 
 const ContentWrapper = styled.div`
-  background-color: #666bd7;
+ 
+  background-color: #282933;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   height: 80vh;
   flex-direction: column;
-
+  font-family: "Montserrat", sans-serif;
 `;
 
 const CourseWrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 30%;
+  width: 25%;
   text-align: justify;
-  margin: 2%;
-
+  margin: 3vw;
+  color: white;
 `;
 
 
-const TitleStyle = styled.h1`
-  background-color: purple;
+const TitleSectionStyle = styled.h1`
+  /* background-color: purple; */
+  color: white;
 `;
 
 export const AllCoursesWrapper = styled.div`
@@ -36,7 +38,7 @@ export const AllCoursesWrapper = styled.div`
 function Education() {
   return (
     <ContentWrapper>
-      <TitleStyle>Educação</TitleStyle>
+      <TitleSectionStyle>Educação</TitleSectionStyle>
       <AllCoursesWrapper>
         <CourseWrapper>
           <h2>Curso Web Full Stack na Labenu_</h2>
