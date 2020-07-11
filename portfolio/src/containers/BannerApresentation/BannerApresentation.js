@@ -3,41 +3,73 @@ import styled from "styled-components";
 import SocialMedias from "../../components/SocialMedias/SocialMedias";
 
 const ContentWrapper = styled.div`
+  background-color: #6580ac;
   display: flex;
   flex-direction: row;
-  background-color: #6580ac;
+  max-height: 80vh;
   flex-wrap: wrap;
   width: 100%;
+  font-family: "Montserrat", sans-serif;
 
   @media screen and (max-width: 1200px) {
-    height: auto;
-    width: 46vh;
+    /* height:100%;
+    width: 100vw; */
   }
-
 `;
 
 const ImageStyled = styled.img`
   height: 80vh;
+  /* width: auto; */
   margin: 0;
 
   @media screen and (max-width: 1200px) {
     height: auto;
-    width: 46vh;
+    width: 100%;
   }
 `;
 
 const SocialWrapper = styled.div`
+  /* background-color: purple; */
   align-self: center;
 `;
 
 const InformationWrapper = styled.div`
-  padding: 9rem 11rem 6rem 4rem;
+  /* background-color: green; */
+  max-height: 80vh;
+  padding: 30vh 10vw 30vh 4rem;
+
   color: #f5f5f5;
   text-align: left;
   word-wrap: break-word;
 
   @media screen and (max-width: 1200px) {
-    padding: 2rem;
+    padding: 2vh 3vw;
+    min-height: 10vh;
+  }
+`;
+
+const Title = styled.h1`
+  color: #fddb67;
+  line-height: 10px;
+  font-family: "Glegoo";
+
+  @media screen and (max-width: 1200px) {
+    font-size: 1.5em;
+    line-height: 2vh;
+  }
+`;
+const Subtitle = styled.h3`
+  line-height: 12px;
+  font-family: "Glegoo";
+
+  @media screen and (max-width: 1200px) {
+    font-size: 1em;
+  }
+`;
+const Paragraphy = styled.p`
+  font-family: "Glegoo";
+  @media screen and (max-width: 1200px) {
+    font-size: 0.7em;
   }
 `;
 
@@ -49,9 +81,10 @@ function BannerApresentation() {
       </div>
 
       <InformationWrapper>
-        <h1>Olá, sou Eloisa Fagundes</h1>
-        <h3> Desenvolvedora Web Full Stack</h3>
-        <p> Apaixonada por tecnologia, programação e gatos</p>
+        <Title>Olá, </Title>
+        <Title> sou Eloisa Fagundes</Title>
+        <Subtitle> Desenvolvedora Web Full Stack</Subtitle>
+        <Paragraphy> Apaixonada por tecnologia, programação e gatos</Paragraphy>
       </InformationWrapper>
 
       <SocialWrapper>
