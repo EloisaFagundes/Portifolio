@@ -14,8 +14,8 @@ const ContentWrapper = styled.div`
     justify-content: flex-start;
     display: flex;
     flex-direction: row;
-    padding: 0;
-    width: 100vw;
+    /* padding: 0; */
+    max-width: 100vw;
     margin: 0;
     height: 65vh;
   }
@@ -48,7 +48,7 @@ const ButtonStyled = styled.button`
     /* background-color: red; */
     font-size: 0.9em;
     width: 100vw;
-    margin: 0;
+    margin: ;
     padding: 0;
   }
 `;
@@ -59,18 +59,19 @@ const ButtonWrapper = styled.div`
   align-items: center;
   align-self: center;
   justify-content: center;
-  padding: 20px 0;
+  /* padding: 20px 0; */
 
   @media screen and (max-width: 1200px) {
     padding: 0;
     width: 40vw;
     margin: 0;
+    margin-top: 4vh;
   }
 `;
 
 const AboutMeWrapper = styled.div`
-  margin-left: 10px;
   /* background-color: red; */
+  margin-left: 10px;
   padding: 2rem 2rem 2rem 2rem;
   color: #f5f5f5;
   text-align: left;
@@ -82,20 +83,21 @@ const AboutMeWrapper = styled.div`
   align-self: center;
 
   @media screen and (max-width: 1200px) {
-    padding: 0 3rem;
+    /* min-height: 80vh; */
+    padding: 0;
     max-width: 100vw;
-    margin: 0;
+    margin: 4vh 10vw;
   }
 `;
 
 const TextWrapper = styled.div`
-  /* background-color: green; */
+  /* background-color: white; */
   width: 30vw;
   text-align: justify;
 
   @media screen and (max-width: 991px) {
     padding: 0;
-    width: 40vw;
+    width: 80vw;
   }
 `;
 
@@ -176,7 +178,16 @@ function AboutMe() {
         </ListTecnologiesConteiner> */}
 
         <ButtonWrapper>
-          <ButtonStyled>CV em PDF</ButtonStyled>
+          <ButtonStyled
+            onClick={() =>
+              window.open(
+                "https://github.com/EloisaFagundes/Portifolio/files/4910114/eloisa-fagundes-desenvolvedora-web.pdf",
+                "_blank"
+              )
+            }
+          >
+            CV em PDF
+          </ButtonStyled>
         </ButtonWrapper>
       </AboutMeWrapper>
 

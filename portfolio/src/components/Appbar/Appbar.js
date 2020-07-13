@@ -11,9 +11,10 @@ const AppbarStyled = styled.div`
   align-items: center;
   margin: 0 0;
   padding: 1rem 1rem;
+  top: 0;
 
   @media screen and (max-width: 1200px) {
-    height: 10vh;
+    height: 15vh;
     width: 100%;
     /* padding: 1vh  1vw; */
   }

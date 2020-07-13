@@ -16,10 +16,10 @@ function App() {
       <BannerApresentation />
       <AboutMe />
       <Knowledges />
-      {/* <Education /> */}
-      {/* <MyProjects /> */}
-      {/* <HireMe /> */}
-      {/* <Footer /> */}
+      <Education />
+      <MyProjects />
+      <HireMe />
+      <Footer />
     </div>
   );
 }
