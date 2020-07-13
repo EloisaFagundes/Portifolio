@@ -19,7 +19,7 @@ const ContentWrapper = styled.div`
 
 const ImageStyled = styled.img`
   height: 80vh;
-  /* width: auto; */
+  width: auto;
   margin: 0;
 
   @media screen and (max-width: 1200px) {
@@ -43,7 +43,7 @@ const InformationWrapper = styled.div`
   word-wrap: break-word;
 
   @media screen and (max-width: 1200px) {
-    padding: 2vh 3vw;
+    padding:2vh 8.9vw;
     min-height: 10vh;
   }
 `;
@@ -52,7 +52,7 @@ const Title = styled.h1`
   color: #fddb67;
   line-height: 10px;
   font-family: "Glegoo";
-
+  font-size: 40px;
   @media screen and (max-width: 1200px) {
     font-size: 1.5em;
     line-height: 2vh;

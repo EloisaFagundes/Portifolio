@@ -10,7 +10,7 @@ const FooterStyled = styled.footer`
   align-items: center;
   margin: 0 0;
   padding: 1rem 1rem;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Glegoo";
 `;
 
 function Footer() {
