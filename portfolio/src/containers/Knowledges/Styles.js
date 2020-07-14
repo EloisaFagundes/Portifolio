@@ -40,7 +40,6 @@ export const BlocksTextsWrapper = styled.div`
   margin: 2%;
   width: 1230px;
   @media screen and (max-width: 1200px) {
-    background-color: pink;
     flex-wrap: wrap;
     max-width: 90vw;
   }
@@ -62,8 +61,6 @@ export const Subtitle = styled.h1`
   font-family: "Glegoo";
   font-size: 1.7em;
   @media screen and (max-width: 1200px) {
-    background-color: orange;
-    /* width: 100vw; */
     font-size: 1.5em;
     line-height: 2vh;
     color: #ffff;
