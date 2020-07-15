@@ -16,7 +16,6 @@ import {
   Button3,
 } from "./Styles";
 
-
 function MyProjects() {
   return (
     <ContentWrapper id="MyProjects">

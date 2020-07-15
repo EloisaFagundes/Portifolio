@@ -16,6 +16,7 @@ import {
 function AboutMe() {
   return (
     <ContentWrapper id="AboutMe">
+      
       <AboutMeWrapper>
         <TextWrapper>
           <TitleSection>Sobre mim</TitleSection>

@@ -18,20 +18,18 @@ function Knowledges() {
         <BlocksTextsWrapper>
           <TextWrapper>
             <Subtitle>Front-end</Subtitle>
-            <Paragraphy>
-              HTML | CSS | JavaScript | Typescript | NodeJS React Redux |
-              Material-UI | Styled-Components Autorização | Testes Unitários |
-              Responsividade Autenticação | Redux-Thunk | React Router | Surge
-            </Paragraphy>
+            <Paragraphy>HTML | CSS | JavaScript | Typescript </Paragraphy>
+            <Paragraphy>NodeJS | React | Redux |  Redux-Thunk | React Router </Paragraphy>
+            <Paragraphy>Styled-Components | Responsividade | Material-UI </Paragraphy>
+            <Paragraphy>Autorização | Autenticação |Testes Unitários | Surge</Paragraphy>
           </TextWrapper>
 
           <TextWrapper>
             <Subtitle>Back-end</Subtitle>
-            <Paragraphy>
-              NodeJS | Typescript | Arquitetura MVC | MySQL Knex | Express |
-              Dotenv | UUID | Bcrypt AWS(EC2,Lambda e API Gateway) |
-              JsonWebToken | Jest | Rest API |
-            </Paragraphy>
+            <Paragraphy>NodeJS | Typescript | Arquitetura MVC </Paragraphy>
+            <Paragraphy>MySQL | Knex | Express | Dotenv </Paragraphy>
+            <Paragraphy>UUID | Bcrypt | AWS(EC2,Lambda e API Gateway) </Paragraphy>
+            <Paragraphy>JsonWebToken | Jest | Rest API </Paragraphy>
           </TextWrapper>
         </BlocksTextsWrapper>
       </ContentWrapper>

@@ -20,10 +20,10 @@ function Education() {
           <Paragraphy>
             A Labenu é uma startup que forma Desenvolvedores Web Full Stack para
             o mercado de trabalho. São mais de 1000 horas de programação durante
-            o bootcamp. Durante o curso os alunos desenvolvem aplicações
+            o bootcamp. No decorrer do curso os alunos desenvolvem aplicações
             funcionais pensando no front end e em como usuário irá interagir com
-            a aplicação e no back-end, criando e estruturando o banco de dados
-            que receberá a informação, pensando também em validações e
+            a aplicação, no back-end criando e estruturando o banco de dados que
+            receberá as informações, pensando também em validações e
             verificações.
           </Paragraphy>
         </CourseWrapper>
@@ -37,6 +37,8 @@ function Education() {
             uma visão completa das atividades que o profissional da área digital
             realiza -, passando ainda por conceitos teóricos, cases e
             problemáticas do dia a dia vivenciadas em empresas e agências.
+            também são expostas problemáticas sobre as etapas do planejamento de
+            marketing e ferramentas para auxiliar o profissional.
           </Paragraphy>
         </CourseWrapper>
 
@@ -47,7 +49,10 @@ function Education() {
             Bacharelado em Publicidade e Propaganda. Foram ministradas as
             principais ferramentas de comunicação em criação, conteúdos
             digitais, planejamento, mídia, atendimento, marketing, comunicação
-            dirigida, entre outros.
+            dirigida, entre outros. Aulas práticas com ferramentas do Pacote
+            Adobe e Corel Draw também fazem parte da rotina das aulas de
+            criação. Semestralmente são desenvolvidos projetos de comunicação e 
+            mensuração de budget e veiculação.
           </Paragraphy>
         </CourseWrapper>
       </AllCoursesWrapper>

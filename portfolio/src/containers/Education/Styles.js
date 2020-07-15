@@ -6,20 +6,18 @@ export const ContentWrapper = styled.div`
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  height: 80vh;
+  min-height: 80vh;
   flex-direction: column;
   font-family: "Montserrat", sans-serif;
-
   @media screen and (max-width: 1200px) {
-    /* padding: 0; */
     width: 100%;
     margin: 0;
-    height: 140vh;
+    min-height: 140vh;
+    flex-direction: column;
   }
 `;
 
 export const CourseWrapper = styled.div`
-  /* background-color: yellow; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -28,12 +26,10 @@ export const CourseWrapper = styled.div`
   margin: 0 30px;
   color: white;
 
-  @media screen and (max-width: 991px) {
-    /* padding: 3rem 0;*/
+  @media screen and (max-width: 1200px) {
     margin: 0;
     margin-bottom: 4vh;
     flex-wrap: wrap;
-    /* width: 65vw;  */
     text-align: justify;
     width: 90vw;
     align-content: center;
@@ -41,7 +37,6 @@ export const CourseWrapper = styled.div`
 `;
 
 export const TitleSectionStyle = styled.h1`
-  /* background-color: purple; */
   color: white;
   font-family: "Glegoo";
   margin-bottom: 50px;
@@ -52,26 +47,20 @@ export const TitleSectionStyle = styled.h1`
 `;
 
 export const AllCoursesWrapper = styled.div`
-  /* background-color: green; */
   display: flex;
   justify-content: space-between;
-
-  @media screen and (max-width: 991px) {
-    /* padding: 3rem 0;  */
-    /* width: 90vw; */
+  @media screen and (max-width: 1200px) {
     text-align: justify;
     flex-wrap: wrap;
     max-width: 90vw;
     align-content: center;
+    justify-content: column;
   }
 `;
 
 export const Subtitle = styled.h1`
-  /* color: #171430; */
-  /* background-color: pink; */
   font-family: "Glegoo";
   font-size: 1.3em;
-  font-family: "Glegoo";
   text-align: left;
   @media screen and (max-width: 1200px) {
     font-family: "Glegoo";
@@ -93,7 +82,6 @@ export const Institute = styled.h4`
   }
 `;
 export const Paragraphy = styled.p`
-  /* background-color: white; */
   color: #ffff;
   @media screen and (max-width: 1200px) {
     font-size: 0.9em;

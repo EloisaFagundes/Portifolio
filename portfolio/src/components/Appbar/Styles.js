@@ -1,6 +1,5 @@
 import styled from "styled-components";
 
-
 export const AppbarStyled = styled.div`
   width: 100%;
   display: flex;
@@ -16,7 +15,6 @@ export const AppbarStyled = styled.div`
   @media screen and (max-width: 1200px) {
     height: 15vh;
     width: 100%;
-    /* padding: 1vh  1vw; */
   }
 `;
 
@@ -28,7 +26,6 @@ export const LogoStyled = styled.img`
 `;
 
 export const LinkMenuStyled = styled.a`
-  /* background-color: green; */
   color: white;
   @media screen and (max-width: 1200px) {
     height: 5vh;
@@ -41,7 +38,6 @@ export const LinkMenuStyled = styled.a`
 `;
 
 export const NavIconsWrapper = styled.div`
-/* background-color: red; */
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 1rem;
@@ -49,10 +45,9 @@ export const NavIconsWrapper = styled.div`
   margin: 0 3vw;
 
   @media screen and (max-width: 1200px) {
-    /* background-color: purple; */
     margin: 0 5vw;
-    height: 5vh; 
-    padding: 1vh  1vw;
-    justify-content: center; 
- }
+    height: 5vh;
+    padding: 1vh 1vw;
+    justify-content: center;
+  }
 `;

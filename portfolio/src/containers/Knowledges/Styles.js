@@ -7,7 +7,7 @@ export const ContentWrapper = styled.div`
   justify-content: center;
   align-items: center;
   font-family: "Montserrat", sans-serif;
-  max-height: 80vh;
+  min-height: 100vh;
   height: 70vh;
   flex-direction: column;
 
@@ -24,9 +24,7 @@ export const TextWrapper = styled.div`
   text-align: justify;
   width: 40vw;
   flex-direction: column;
-  width: 45%;
-
-  @media screen and (max-width: 991px) {
+  @media screen and (max-width: 1200px) {
     width: 100vw; 
     text-align: justify; 
   }
@@ -38,9 +36,7 @@ export const BlocksTextsWrapper = styled.div`
   justify-content: space-between;
   align-items: center;
   margin: 2%;
-  width: 1230px;
   @media screen and (max-width: 1200px) {
-    flex-wrap: wrap;
     max-width: 90vw;
   }
 `;
