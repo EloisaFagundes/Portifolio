@@ -1,32 +1,23 @@
 import styled from "styled-components";
 
 export const SocialWrapper = styled.div`
-  /* background-color: red; */
   display: flex;
   flex-direction: column;
   align-items: center;
   font-family: "Roboto", sans-serif;
-  
+  max-height: 75vh;
+  margin: auto 0;
+  justify-content: center;
   @media screen and (max-device-width: 1200px) {
-    
-  }
-  @media screen and (max-device-width: 1200px) {
-    /* background-color: red; */
-    /* justify-content: space-between;
-        flex-direction: row;
-        position: absolute;
-        margin: 4vh;
-        height: 5vh;
-        width: 82vw;
-        z-index: 2; */
     display: none;
+    position: absolute;
+    bottom: 0;
   }
 `;
 
 export const SocialIconStyled = styled.img`
   width: 15vh;
   cursor: pointer;
-
   :hover,
   :focus {
   color: #333;

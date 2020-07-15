@@ -27,7 +27,6 @@ function HireMe() {
         <SocialIconStyled
           src={require("../../images/linkedin.png")}
           type="button"
-          class="effect transEffect"
           alt="linkedin logo contorno branco vazado"
           onClick={() =>
             window.open(

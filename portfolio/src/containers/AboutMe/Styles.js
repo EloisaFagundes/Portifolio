@@ -6,16 +6,15 @@ export const ContentWrapper = styled.div`
   background-color: #4c1b44;
   flex-wrap: wrap;
   width: 100%;
-  height: 80vh;
+  min-height: 80vh;
   justify-content: space-around;
 
   @media screen and (max-width: 1200px) {
-    /* justify-content: flex-start; */
     display: flex;
     flex-direction: column;
-    max-width: 100vw;
+    min-width: 100vw;
     margin: 0;
-    height: 65vh;
+    min-height: 80vh;
   }
 `;
 
@@ -23,7 +22,6 @@ export const IllustrationStyled = styled.img`
   height: 80vh;
   width: auto;
   margin-right: 20px;
-
   @media screen and (max-width: 1200px) {
     display: none;
   }
@@ -39,7 +37,7 @@ export const ButtonStyled = styled.button`
   font-weight: bold;
   align-self: center;
   align-items: center;
-
+  cursor: pointer;
   @media screen and (max-width: 1200px) {
     font-size: 0.9em;
     width: 100vw;
@@ -53,7 +51,6 @@ export const ButtonWrapper = styled.div`
   align-items: center;
   align-self: center;
   justify-content: center;
-
   @media screen and (max-width: 1200px) {
     padding: 0;
     width: 40vw;
@@ -64,30 +61,26 @@ export const ButtonWrapper = styled.div`
 
 export const AboutMeWrapper = styled.div`
   margin-left: 10px;
-  padding: 2rem 2rem 2rem 2rem;
+  padding: 2rem;
   color: #f5f5f5;
   text-align: left;
   max-width: 41vw;
-  width: 30vw;
   align-items: center;
   justify-content: center;
   align-self: center;
 
   @media screen and (max-width: 1200px) {
-    /* background-color: white; */
     padding: 0;
     max-width: 100vw;
     width: 80vw;
+    min-height: 70vh;
     margin: 4vh 10vw;
   }
 `;
 
 export const TextWrapper = styled.div`
-  width: 30vw;
   text-align: justify;
-
-  @media screen and (max-width: 991px) {
-    /* background-color: green; */
+  @media screen and (max-width: 1200px) {
     padding: 0;
     width: 80vw;
   }
@@ -96,25 +89,25 @@ export const TextWrapper = styled.div`
 export const TitleSection = styled.h1`
   color: #ffff;
   font-family: "Glegoo";
-
   @media screen and (max-width: 1200px) {
     font-size: 1.5em;
     line-height: 2vh;
     color: #d3ad0a;
   }
 `;
+
 export const ParagraphyStyled = styled.p`
   text-align: justify;
   color: #ffff;
   font-family: "Montserrat", sans-serif;
   line-height: 3vh;
-  max-width: 40vw;
   @media screen and (max-width: 1200px) {
     max-width: 90vw;
     font-size: 0.9em;
     width: 75vw;
     margin: 0;
     padding: 0;
+    line-height: 4vh;
   }
 `;
 export const ListTecnologiesConteiner = styled.div`

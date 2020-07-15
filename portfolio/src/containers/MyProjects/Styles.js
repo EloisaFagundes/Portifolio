@@ -10,12 +10,6 @@ export const ContentWrapper = styled.div`
 
 export const TitleSection = styled.h1`
   font-family: "Glegoo";
-  /* background-color: pink; */
-  /* @media screen and (max-width: 1200px) {
-    font-size: 1.5em;
-    line-height: 2vh;
-    color: #d3ad0a;
-  } */
   @media screen and (max-width: 1200px) {
     font-size: 1.5em;
     line-height: 2;
@@ -24,15 +18,6 @@ export const TitleSection = styled.h1`
 `;
 
 export const ProjectWrapper = styled.div`
-  /* background-color: #d3ad0a;
-  height: 315px;
-  max-width: 800px;
-  margin: 0 auto;
-  display: flex;
-  align-items: center; */
-  /* background-color: orange; */
-  /* height:315px; */
-  /* border: solid 1px blue; */
   height: 315px;
   max-width: 900px;
   max-height: 310px;
@@ -41,50 +26,28 @@ export const ProjectWrapper = styled.div`
 `;
 
 export const ProjectWrapper1 = styled.div`
-  /* background-color: orange; */
-  /* height:315px; */
-  /* border: solid 1px blue; */
   max-width: 800px;
   max-height: 310px;
   margin: 0 auto;
   display: flex;
-  /* align-items: center;
-  align-content: center;
-  align-self: center; */
 `;
 
 export const IllustrationWrapper = styled.div`
-  /* background-color: #0080ff; */
-  /* border: solid 1px red; */
-  /* align-content: center; */
   display: flex;
   align-items: center;
   margin-right: 5px;
   margin-top: 4px;
-  /* justify-content: center; */
-  /* align-self: center; */
-  /* height:315px; */
 `;
 export const IllustrationStyled = styled.img`
-  /* background-color: purple; */
-  /* border: solid 1px red; */
   width: 250px;
   height: 250px;
-  @media screen and (max-width: 991px) {
-    /* height: 15vh; 
-    width: auto; */ 
+  @media screen and (max-width: 1200px) {
     display: none;
   }
 `;
 export const ProjetctDetailWrapper = styled.div`
-  /* background-color: #ff0000; */
-  /* align-items: center; */
-  /* justify-content: center; */
-  /* align-self: center; */
-  /* width:310px; */
   height: 310px;
   @media screen and (max-width: 1200px) {
-    /* font-size: 1.5em; */
     line-height: 3vh;
     max-width: 90vw;
   }
@@ -92,7 +55,6 @@ export const ProjetctDetailWrapper = styled.div`
 
 export const TitleStyled = styled.h2`
   text-align: left;
-  /* background-color: purple; */
   font-family: "Glegoo";
   width: 250px;
   height: 52px;
@@ -111,7 +73,6 @@ export const TitleStyled = styled.h2`
   }
 `;
 export const SubtitleStyled = styled.h3`
-  background-color: white;
   font-family: "Glegoo";
   text-align: left;
   color: grey;
@@ -129,7 +90,6 @@ export const SubtitleStyled = styled.h3`
     font-size: 1em;
     line-height: 1.5;
   }
- 
 `;
 
 export const ParagaphyStyled = styled.p`
@@ -139,15 +99,12 @@ export const ParagaphyStyled = styled.p`
   width: 500px;
 
   @media screen and (max-width: 1200px) {
-    /* background-color: yellow; */
-    /* font-size: 0.5em; */
     line-height: 1.3;
     max-width: 90vw;
   }
 `;
 export const ButtonWrapper = styled.div`
   display: flex;
-  /* background-color: white; */
   align-self: left;
 `;
 
