@@ -21,7 +21,7 @@ function AboutMe() {
         <TextWrapper>
           <TitleSection>Sobre mim</TitleSection>
           <ParagraphyStyled>
-            Você também pode me chamar de Lolla. Sou natural de Monte Verde- MG,
+            Você também pode me chamar de Lolla. Sou natural de Monte Verde - MG,
             desembarquei em São Paulo em 2013 e desde então esse é o meu lar.
             Sou formada em Publicidade e Propaganda pela FAM, atuei durante 4
             anos com Marketing Digital no 3º setor e recentemente mergulhei

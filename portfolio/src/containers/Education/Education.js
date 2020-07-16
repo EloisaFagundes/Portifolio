@@ -37,7 +37,7 @@ function Education() {
             uma visão completa das atividades que o profissional da área digital
             realiza -, passando ainda por conceitos teóricos, cases e
             problemáticas do dia a dia vivenciadas em empresas e agências.
-            também são expostas problemáticas sobre as etapas do planejamento de
+            Também são expostas problemáticas sobre as etapas do planejamento de
             marketing e ferramentas para auxiliar o profissional.
           </Paragraphy>
         </CourseWrapper>
