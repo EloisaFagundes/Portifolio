@@ -54,28 +54,3 @@ export const InformationWrapper = styled.div`
     background-color: rgba(76, 27, 68, 0.6);
   }
 `;
-
-export const Title = styled.h1`
-  color: #fddb67;
-  line-height: 10px;
-  font-family: "Glegoo";
-  font-size: 40px;
-  @media screen and (max-width: 1200px) {
-    font-size: 1.5em;
-    line-height: 2vh;
-  }
-`;
-
-export const Subtitle = styled.h3`
-  line-height: 12px;
-  font-family: "Glegoo";
-  @media screen and (max-width: 1200px) {
-    font-size: 1rem;
-  }
-`;
-export const Paragraphy = styled.p`
-  font-family: "Glegoo";
-  @media screen and (max-width: 1200px) {
-    font-size: 0.7rem;
-  }
-`;

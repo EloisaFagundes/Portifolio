@@ -15,9 +15,7 @@ function HireMe() {
       <TitleSectionStyle>Contrate-me!</TitleSectionStyle>
       <TextWrapper>
         <TextStyle>
-          Estou em busca da minha primeira oportunidade na área de tecnologia,
-          para que possa aprender , desenvolver minhas habilidades e evoluir na
-          minha carreira profissional.
+         Vamos marcar um bate-papo?
         </TextStyle>
 
         <TextStyle>E-mail para contato: lola.fernanda@hotmail.com</TextStyle>

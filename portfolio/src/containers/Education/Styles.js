@@ -36,16 +36,6 @@ export const CourseWrapper = styled.div`
   }
 `;
 
-export const TitleSectionStyle = styled.h1`
-  color: white;
-  font-family: "Glegoo";
-  margin-bottom: 50px;
-  @media screen and (max-width: 1200px) {
-    font-size: 1.5em;
-    line-height: 3vh;
-  }
-`;
-
 export const AllCoursesWrapper = styled.div`
   display: flex;
   justify-content: space-between;
@@ -58,36 +48,4 @@ export const AllCoursesWrapper = styled.div`
   }
 `;
 
-export const Subtitle = styled.h1`
-  font-family: "Glegoo";
-  font-size: 1.3em;
-  text-align: left;
-  @media screen and (max-width: 1200px) {
-    font-family: "Glegoo";
-    font-size: 1.1em;
-    line-height: 1.5vh;
-    color: #d3ad0a;
-  }
-`;
 
-export const Institute = styled.h4`
-  color: #6a7eea;
-  font-size: 1em;
-  margin: 1vh 0;
-  @media screen and (max-width: 1200px) {
-    font-family: "Glegoo";
-    font-size: 1em;
-    line-height: 1.5vh;
-    margin: 1vh 0;
-  }
-`;
-export const Paragraphy = styled.p`
-  color: #ffff;
-  @media screen and (max-width: 1200px) {
-    font-size: 0.9em;
-    text-align: justify;
-    color: #ffff;
-    width: 80vw;
-    line-height: 1.3;
-  }
-`;

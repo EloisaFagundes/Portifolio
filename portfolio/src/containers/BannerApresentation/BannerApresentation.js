@@ -1,28 +1,26 @@
 import React from "react";
 import SocialMedias from "../../components/SocialMedias/SocialMedias";
-import {
-  InformationWrapper,
-  Paragraphy,
-  Subtitle,
-  Title,
-  ContentWrapper,
-  PhotoStyled,
-} from "./Styles";
+import { Separator } from "../../globalStyles/Separator";
+import { Title, H3, Body } from "../../globalStyles/Typography";
+import { InformationWrapper, ContentWrapper, PhotoStyled } from "./Styles";
+import { BannerStrings } from "./Constants";
 
+const strings = BannerStrings.banner;
 
 function BannerApresentation() {
   return (
     <ContentWrapper>
-        <PhotoStyled src={require("../../images/minha-foto.jpg")} />
+      <PhotoStyled src={require("../../images/minha-foto.jpg")} />
       <InformationWrapper>
-        <Title>Olá, </Title>
-        <Title> sou Eloisa Fagundes</Title>
-        <Subtitle> Desenvolvedora Web Full Stack</Subtitle>
-        <Paragraphy> Apaixonada por tecnologia, programação e gatos</Paragraphy>
+        <Separator />
+        <Title>{strings.title}</Title>
+        <Separator />
+        <H3>{strings.occupation}</H3>
+        <Body> {strings.about}</Body>
+        <Separator />
       </InformationWrapper>
 
-        <SocialMedias />
-
+      <SocialMedias />
     </ContentWrapper>
   );
 }
