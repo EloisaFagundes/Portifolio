@@ -15,6 +15,7 @@ import {
 import { Button } from "../../globalStyles/Button";
 import { H1Default } from "../../globalStyles/Typography";
 import { projectStrings } from "./Constants";
+import { Separator } from "../../globalStyles/Separator";
 
 const colorProjectOne = "#4c1b44";
 const colorProjectTwo = "#d3ad0a";
@@ -23,6 +24,7 @@ const colorProjectThree = "#1b2238";
 function MyProjects() {
   return (
     <ContentWrapper id="MyProjects">
+      <Separator />
       <H1Default>{projectStrings.title}</H1Default>
 
       <ProjectWrapper1>

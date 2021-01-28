@@ -5,10 +5,10 @@ export const H1 = styled.h1`
   font-family: "Glegoo";
   @media screen and (max-width: 1200px) {
     font-size: 1.5em;
-    line-height: 2vh;
-    color: #d3ad0a;
+    line-height: 5vh;
   }
 `;
+
 
 export const H1Default = styled(H1)`
   color: black;
