@@ -1,13 +1,11 @@
 import React from "react";
-import {FooterStyled}from "./Styles"
+import { FooterStyled } from "./Styles";
 
 function Footer() {
   return (
-    <>
       <FooterStyled>
-        <p> ©2020, Eloisa Fagundes</p>
+        <p> ©2021, Eloisa Fagundes</p>
       </FooterStyled>
-    </>
   );
 }
 

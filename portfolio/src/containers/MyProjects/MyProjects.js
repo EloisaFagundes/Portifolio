@@ -1,7 +1,6 @@
 import React from "react";
 import {
   ContentWrapper,
-  TitleSection,
   ProjectWrapper,
   ProjectWrapper1,
   IllustrationWrapper,
@@ -11,15 +10,20 @@ import {
   SubtitleStyled,
   ParagaphyStyled,
   ButtonWrapper,
-  Button,
-  Button2,
-  Button3,
 } from "./Styles";
+
+import { Button } from "../../globalStyles/Button";
+import { H1Default } from "../../globalStyles/Typography";
+import { projectStrings } from "./Constants";
+
+const colorProjectOne = "#4c1b44";
+const colorProjectTwo = "#d3ad0a";
+const colorProjectThree = "#1b2238";
 
 function MyProjects() {
   return (
     <ContentWrapper id="MyProjects">
-      <TitleSection>Meus Projetos</TitleSection>
+      <H1Default>{projectStrings.title}</H1Default>
 
       <ProjectWrapper1>
         <IllustrationWrapper>
@@ -30,25 +34,19 @@ function MyProjects() {
         </IllustrationWrapper>
 
         <ProjetctDetailWrapper>
-          <TitleStyled>4eddit</TitleStyled>
-          <SubtitleStyled>Front-end</SubtitleStyled>
+          <TitleStyled>{projectStrings.FourEddit.project}</TitleStyled>
+          <SubtitleStyled>{projectStrings.FourEddit.stack}</SubtitleStyled>
           <ParagaphyStyled>
-            É uma rede social realmente funcional (com cadastro, login, posts,
-            likes e comentários) baseada no reddit.com. É um CRUD, SPA que
-            consome dados de uma RestAPI externa através da bibliotexa AXIOS.
-            Foi desenvolvido utilizando React + Redux, Material-UI e
-            Styled-Components na estilização.
+            {projectStrings.FourEddit.description}
           </ParagaphyStyled>
           <ButtonWrapper>
             <Button
+              backgroundColor={colorProjectOne}
               onClick={() =>
-                window.open(
-                  "https://github.com/EloisaFagundes/4eddit",
-                  "_blank"
-                )
+                window.open(projectStrings.FourEddit.link, "_blank")
               }
             >
-              ver no GitHub
+              {projectStrings.button}
             </Button>
           </ButtonWrapper>
         </ProjetctDetailWrapper>
@@ -63,26 +61,20 @@ function MyProjects() {
         </IllustrationWrapper>
 
         <ProjetctDetailWrapper>
-          <TitleStyled>Cookenu</TitleStyled>
-          <SubtitleStyled>Back-end</SubtitleStyled>
+        <TitleStyled>{projectStrings.Cookenu.project}</TitleStyled>
+          <SubtitleStyled>{projectStrings.Cookenu.stack}</SubtitleStyled>
           <ParagaphyStyled>
-            Esse produto é uma rede social de receitas, na qual os usuários
-            podem dividir informações relevantes sobre comidas e receitas que
-            tenham experimentado. Ela possui todas as funcionalidades mais
-            comuns em redes sociais. CRUD utilizando typescript, express, UUID e
-            MySQL.
+            {projectStrings.Cookenu.description}
           </ParagaphyStyled>
           <ButtonWrapper>
-            <Button2
+            <Button
+              backgroundColor={colorProjectTwo}
               onClick={() =>
-                window.open(
-                  "https://github.com/EloisaFagundes/Backend-Cookenu",
-                  "_blank"
-                )
+                window.open(projectStrings.Cookenu.link, "_blank")
               }
             >
-              ver no GitHub
-            </Button2>
+              {projectStrings.button}
+            </Button>
           </ButtonWrapper>
         </ProjetctDetailWrapper>
       </ProjectWrapper>
@@ -95,27 +87,20 @@ function MyProjects() {
           />
         </IllustrationWrapper>
         <ProjetctDetailWrapper>
-          <TitleStyled>Spotenu</TitleStyled>
-          <SubtitleStyled>Full Stack</SubtitleStyled>
+        <TitleStyled>{projectStrings.Spotenu.project}</TitleStyled>
+          <SubtitleStyled>{projectStrings.Spotenu.stack}</SubtitleStyled>
           <ParagaphyStyled>
-            É um projeto que visa facilitar o acesso a músicas pelo mundo. Para
-            isso, existe o suporte para dois tipos de usuários: as bandas (ou
-            músicos) e os ouvintes. Além disso, possui também administradores
-            que tomam conta das permissões da aplicação. No Front-end utilizei
-            React + Redux e Hooks e no Back-end Typescript, MySQL, Express, UUID
-            e JWT.
+            {projectStrings.Spotenu.description}
           </ParagaphyStyled>
           <ButtonWrapper>
-            <Button3
+            <Button
+              backgroundColor={colorProjectThree}
               onClick={() =>
-                window.open(
-                  "https://github.com/EloisaFagundes/projeto-fullstack",
-                  "_blank"
-                )
+                window.open(projectStrings.Spotenu.link, "_blank")
               }
             >
-              ver no GitHub
-            </Button3>
+              {projectStrings.button}
+            </Button>
           </ButtonWrapper>
         </ProjetctDetailWrapper>
       </ProjectWrapper>

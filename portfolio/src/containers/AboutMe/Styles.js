@@ -18,31 +18,12 @@ export const ContentWrapper = styled.div`
   }
 `;
 
-export const IllustrationStyled = styled.img`
+export const Image = styled.img`
   height: 80vh;
   width: auto;
   margin-right: 20px;
   @media screen and (max-width: 1200px) {
     display: none;
-  }
-`;
-
-export const ButtonStyled = styled.button`
-  width: 150px;
-  height: 40px;
-  border-radius: 9px;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4);
-  background-color: #d3ad0a;
-  color: rgba(0, 0, 0, 0.5);
-  font-weight: bold;
-  align-self: center;
-  align-items: center;
-  cursor: pointer;
-  @media screen and (max-width: 1200px) {
-    font-size: 0.9em;
-    width: 100vw;
-    margin: 0;
-    padding: 0;
   }
 `;
 
@@ -86,41 +67,3 @@ export const TextWrapper = styled.div`
   }
 `;
 
-export const TitleSection = styled.h1`
-  color: #ffff;
-  font-family: "Glegoo";
-  @media screen and (max-width: 1200px) {
-    font-size: 1.5em;
-    line-height: 2vh;
-    color: #d3ad0a;
-  }
-`;
-
-export const ParagraphyStyled = styled.p`
-  text-align: justify;
-  color: #ffff;
-  font-family: "Montserrat", sans-serif;
-  line-height: 3vh;
-  @media screen and (max-width: 1200px) {
-    max-width: 90vw;
-    font-size: 0.9em;
-    width: 75vw;
-    margin: 0;
-    padding: 0;
-    line-height: 4vh;
-  }
-`;
-export const ListTecnologiesConteiner = styled.div`
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-`;
-export const ItemTecnologiesStyled = styled.p`
-  font-family: "Glegoo";
-  font-size: 13px;
-  font-weight: bold;
-
-  @media screen and (max-width: 1200px) {
-    font-size: 0.5em;
-  }
-`;

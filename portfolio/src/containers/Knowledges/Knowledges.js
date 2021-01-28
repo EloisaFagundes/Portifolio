@@ -1,4 +1,5 @@
 import React from "react";
+import { H1Default } from "../../globalStyles/Typography";
 import {
   ContentWrapper,
   TextWrapper,
@@ -11,9 +12,8 @@ import {
 
 function Knowledges() {
   return (
-    <>
       <ContentWrapper>
-        <TitleStyle>Meus conhecimentos</TitleStyle>
+        <H1Default>Meus conhecimentos</H1Default>
 
         <BlocksTextsWrapper>
           <TextWrapper>
@@ -33,7 +33,6 @@ function Knowledges() {
           </TextWrapper>
         </BlocksTextsWrapper>
       </ContentWrapper>
-    </>
   );
 }
 

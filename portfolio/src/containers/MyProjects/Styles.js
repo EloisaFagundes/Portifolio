@@ -8,14 +8,6 @@ export const ContentWrapper = styled.div`
   flex-direction: column;
 `;
 
-export const TitleSection = styled.h1`
-  font-family: "Glegoo";
-  @media screen and (max-width: 1200px) {
-    font-size: 1.5em;
-    line-height: 2;
-    max-width: 100vw;
-  }
-`;
 
 export const ProjectWrapper = styled.div`
   height: 315px;
